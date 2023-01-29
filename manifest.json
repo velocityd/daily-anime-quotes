@@ -1,0 +1,24 @@
+{
+    "name": "Daily Anime Quotes",
+    "version": "0.0.0.1",
+    "manifest_version": 2,
+    "description": "An simple extension for displaying a new anime quote everyday",
+    "background":
+    {
+        "scripts": ["./background.js"]
+    },
+    "browser_action":
+    {
+        "default_popup": "popup.html"
+    },
+    "icons":
+    {
+        "16": "./images/logo16.png",
+        "32": "./images/logo32.png",
+        "48": "./images/logo48.png",
+        "128": "./images/logo128.png"
+    },
+    "permissions": [
+        "storage"
+    ]
+}
